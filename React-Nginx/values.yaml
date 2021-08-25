@@ -12,7 +12,9 @@ source_repository_ref: master
 context_dir: ReactApp
 # npm command to use when running the build
 npm_command: npm run build
-#quay repository location to push the build image to
+# quay repository location to push the build image to
 quay_repo: quay.io/rutvikpanchal-nvs/react-repo
-#quay repository push secret to allow pushing image to the repository
+# quay repository push secret to allow pushing image to the repository
 quay_push_secret: quay-push-secret
+# Test react version variable
+react_version: 1.0

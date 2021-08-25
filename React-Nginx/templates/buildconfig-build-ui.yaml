@@ -3,7 +3,7 @@ kind: BuildConfig
 metadata:
   name: {{ .Values.prefix }}-ui-build
   annotations:
-    description: This BuildConfig is used to clone the source code and build the UI build 
+    description: {{ .Values.react_version }} This BuildConfig is used to clone the source code of react version and build the UI build
 spec:
   source: 
     type: Git
