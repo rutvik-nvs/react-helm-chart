@@ -1,0 +1,17 @@
+# Default values for React-Nginx.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+prefix: react
+
+# Git Repository URL: The URL of the repository with your React application source code.
+source_repository_url: https://github.com/rutvik-nvs/React-Kafka-Camel-Integration.git
+# Git Reference: Set this to a branch name, tag or other ref of your repository if you are not using the default branch.
+source_repository_ref: master
+# Context Directory: Set this to the relative path to your project if it is not in the root of your repository.
+context_dir: ReactApp
+
+npm_command: npm run build
+
+quay_repo: quay.io/rutvikpanchal-nvs/react-repo
+quay_push_secret: quay-push-secret
